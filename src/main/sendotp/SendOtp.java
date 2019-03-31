@@ -12,11 +12,11 @@ import sendotp.util.JsonUtil;
 
 /**
  *
- * @author gauravmahawar
+ * @author undevofficial
  */
 public class SendOtp {
   
-  private static final String MSG91_URL = "https://control.msg91.com/api/";
+  private static final String MSG91_URL = "https://control.jetext.com/";
   private static final String SEND_PATH = "sendotp.php";
   private static final String RETRY_PATH = "retryotp.php";
   private static final String VERIFY_PATH = "verifyRequestOTP.php";

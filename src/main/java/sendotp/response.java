@@ -4,7 +4,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 /**
  *
- * @author gauravmahawar
+ * @author undevofficial
  */
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Response {

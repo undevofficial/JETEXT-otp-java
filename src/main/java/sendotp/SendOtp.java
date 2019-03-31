@@ -16,7 +16,7 @@ import sendotp.util.JsonUtil;
  */
 public class SendOtp {
   
-  private static final String MSG91_URL = "https://control.jetext.com/";
+  private static final String JETEXT_URL = "https://control.jetext.com/";
   private static final String SEND_PATH = "sendotp.php";
   private static final String RETRY_PATH = "retryotp.php";
   private static final String VERIFY_PATH = "verifyRequestOTP.php";
@@ -163,7 +163,7 @@ public class SendOtp {
   }
   
   private SendOtpResponse post(final String path, final Map<String, String> params, String userAgent) {
-    String url = MSG91_URL + path;
+    String url = JETEXT_URL + path;
     PostMethod pm = new PostMethod(url);
     pm.setRequestHeader("User-Agent", userAgent);
     params.entrySet().forEach((param) -> {

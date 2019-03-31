@@ -5,7 +5,7 @@ import sendotp.util.JsonUtil;
 
 /**
  *
- * @author gauravmahawar
+ * @author undevofficial
  */
 public class SendOtpResponse extends Response {
   private String otp;
